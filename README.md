@@ -13,6 +13,7 @@ ASP.NET MVC application consumes the backed the ASP.NET Web Api.
 
 1. [Clone](https://github.com/tukarambande/ContactManagement.git) the Repository.
 2. Run the SQL Server
+4. Create the database as per the queries given in *ContactManagement.Service.DLL* Project.
 3. Start the Web Api (ContactManagement.Service) and MVC application (ContactManagement).
 
 
