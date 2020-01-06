@@ -1,0 +1,35 @@
+﻿@if (@TempData["Message"] != null)
+{
+    if (Convert.ToString(TempData["MessageSeverity"]) == "Success")
+    {
+        <div class="alert alert-success" style="padding-top:5px !important; padding-bottom:5px !important;">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
+            <img src="~/Images/MessageBox/success.png" alt="Success" style="height:40px; border-radius:25px !important;">
+            @TempData["Message"]
+        </div>
+    }
+    else if (Convert.ToString(TempData["MessageSeverity"]) == "Error")
+    {
+        <div class="alert alert-danger" style="padding-top:5px !important; padding-bottom:5px !important;">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
+            <img src="~/Images/MessageBox/error.jpg" alt="Error" style="height:40px; border-radius: 27px !important; opacity: 0.7; ">
+            @TempData["Message"]
+        </div>
+    }
+    else if (Convert.ToString(TempData["MessageSeverity"]) == "Warning")
+    {
+        <div class="alert alert-warning" style="padding-top:5px !important; padding-bottom:5px !important;">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
+            <img src="~/Images/MessageBox/warning.png" alt="Warning" style="height:40px; opacity: 0.8; ">
+            @TempData["Message"]
+        </div>
+    }
+    else if (Convert.ToString(TempData["MessageSeverity"]) == "Information")
+    {
+        <div class="alert alert-info" style="padding-top:5px !important; padding-bottom:5px !important;">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
+            <img src="~/Images/MessageBox/info.jpg" alt="Warning" style="height:40px; opacity: 0.8; ">
+            @TempData["Message"]
+        </div>
+    }
+}

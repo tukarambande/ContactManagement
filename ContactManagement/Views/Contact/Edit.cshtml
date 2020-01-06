@@ -1,0 +1,108 @@
+﻿@model ContactManagement.Models.ContactViewModel
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<div class="x_title">
+    <h2>Edit Contact Details: <small></small></h2>
+    <div class="clearfix"></div>
+</div>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            <div class="col-md-offset-1 col-md-2 col-sm-3 col-xs-12" style="padding-top:8px;">
+                @Html.LabelFor(model => model.FirstName, new { @required = "true" })
+                <span class="required">*</span>
+                <span style="float:right;">:</span>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                @Html.TextBoxFor(model => model.FirstName, new { @placeholder = "First Name", @class = "form-control col-md-7 col-xs-12" })
+                @Html.ValidationMessageFor(model => model.FirstName, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-1 col-md-2 col-sm-3 col-xs-12" style="padding-top:8px;">
+                @Html.LabelFor(model => model.LastName, new { @required = "true" })
+                <span style="float:right;">:</span>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                @Html.TextBoxFor(model => model.LastName, new { @placeholder = "Last Name", @class = "form-control col-md-7 col-xs-12" })
+                @Html.ValidationMessageFor(model => model.LastName, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-1 col-md-2 col-sm-3 col-xs-12" style="padding-top:8px;">
+                @Html.LabelFor(model => model.EmailId, new { @required = "true" })
+                <span class="required">*</span>
+                <span style="float:right;">:</span>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                @Html.TextBoxFor(model => model.EmailId, new { @placeholder = "Email Id", @class = "form-control col-md-7 col-xs-12" })
+                @Html.ValidationMessageFor(model => model.EmailId, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-1 col-md-2 col-sm-3 col-xs-12" style="padding-top:8px;">
+                @Html.LabelFor(model => model.PhoneNumber, new { @required = "true" })
+                <span class="required">*</span>
+                <span style="float:right;">:</span>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                @Html.TextBoxFor(model => model.PhoneNumber, new { @placeholder = "Phone Number", @class = "form-control col-md-7 col-xs-12" })
+                @Html.ValidationMessageFor(model => model.PhoneNumber, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-1 col-md-2 col-sm-3 col-xs-12" style="padding-top:8px;">
+                @Html.LabelFor(model => model.Status, new { @required = "true" })
+                <span class="required">*</span>
+                <span style="float:right;">:</span>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-12 iradio_flat-green checked">
+                <p style="font-size:14px; padding-top:8px;">
+                    @Html.RadioButtonFor(model => model.Status, "true", new { @class = "flat" }) Yes &nbsp;&nbsp;&nbsp;&nbsp;
+                    @Html.RadioButtonFor(model => model.Status, "false", new { @class = "flat" }) No
+                    @Html.ValidationMessageFor(model => model.Status, "", new { @class = "text-danger" })
+                </p>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-1 col-md-2 col-sm-3 col-xs-12" style="padding-top:8px;">
+                @Html.LabelFor(model => model.Address, new { @required = "true" })
+                <span style="float:right;">:</span>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                @Html.TextAreaFor(model => model.Address, new { @placeholder = "Address maximum 128 characters...", @class = "form-control", @rows = 5 })
+                @Html.ValidationMessageFor(model => model.Address, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <button type="submit" class="btn btn-success">Save</button>
+                <button class="btn btn-primary" type="reset">Clear</button>
+                <button class="btn btn-danger" type="reset" onclick="location.href='@Url.Action("Index", "Contact")'">Cancel (Home Page)</button>
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

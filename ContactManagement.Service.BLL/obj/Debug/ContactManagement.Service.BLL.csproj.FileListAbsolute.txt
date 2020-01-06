@@ -1,0 +1,12 @@
+D:\EvolentProject\ContactManagement\ContactManagement.Service.BLL\bin\Debug\ContactManagement.Service.BLL.dll
+D:\EvolentProject\ContactManagement\ContactManagement.Service.BLL\bin\Debug\ContactManagement.Service.BLL.pdb
+D:\EvolentProject\ContactManagement\ContactManagement.Service.BLL\bin\Debug\AutoMapper.dll
+D:\EvolentProject\ContactManagement\ContactManagement.Service.BLL\bin\Debug\ContactManagement.Service.DLL.dll
+D:\EvolentProject\ContactManagement\ContactManagement.Service.BLL\bin\Debug\EntityFramework.dll
+D:\EvolentProject\ContactManagement\ContactManagement.Service.BLL\bin\Debug\ContactManagement.Service.DLL.pdb
+D:\EvolentProject\ContactManagement\ContactManagement.Service.BLL\bin\Debug\AutoMapper.pdb
+D:\EvolentProject\ContactManagement\ContactManagement.Service.BLL\bin\Debug\AutoMapper.xml
+D:\EvolentProject\ContactManagement\ContactManagement.Service.BLL\bin\Debug\EntityFramework.xml
+D:\EvolentProject\ContactManagement\ContactManagement.Service.BLL\obj\Debug\ContactManagement.Service.BLL.csprojResolveAssemblyReference.cache
+D:\EvolentProject\ContactManagement\ContactManagement.Service.BLL\obj\Debug\ContactManagement.Service.BLL.dll
+D:\EvolentProject\ContactManagement\ContactManagement.Service.BLL\obj\Debug\ContactManagement.Service.BLL.pdb

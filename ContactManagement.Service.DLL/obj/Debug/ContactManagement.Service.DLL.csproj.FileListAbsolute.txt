@@ -1,0 +1,10 @@
+D:\EvolentProject\ContactManagement\ContactManagement.Service.DLL\bin\Debug\ContactManagement.Service.DLL.dll.config
+D:\EvolentProject\ContactManagement\ContactManagement.Service.DLL\bin\Debug\ContactManagement.Service.DLL.dll
+D:\EvolentProject\ContactManagement\ContactManagement.Service.DLL\bin\Debug\ContactManagement.Service.DLL.pdb
+D:\EvolentProject\ContactManagement\ContactManagement.Service.DLL\bin\Debug\EntityFramework.dll
+D:\EvolentProject\ContactManagement\ContactManagement.Service.DLL\bin\Debug\EntityFramework.SqlServer.dll
+D:\EvolentProject\ContactManagement\ContactManagement.Service.DLL\bin\Debug\EntityFramework.xml
+D:\EvolentProject\ContactManagement\ContactManagement.Service.DLL\bin\Debug\EntityFramework.SqlServer.xml
+D:\EvolentProject\ContactManagement\ContactManagement.Service.DLL\obj\Debug\ContactManagement.Service.DLL.csprojResolveAssemblyReference.cache
+D:\EvolentProject\ContactManagement\ContactManagement.Service.DLL\obj\Debug\ContactManagement.Service.DLL.dll
+D:\EvolentProject\ContactManagement\ContactManagement.Service.DLL\obj\Debug\ContactManagement.Service.DLL.pdb
