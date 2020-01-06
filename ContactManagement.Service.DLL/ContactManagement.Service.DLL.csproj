@@ -73,7 +73,9 @@
     <Compile Include="Repository\Impl\ContactRepository.cs" />
     <Compile Include="Repository\IContactRepository.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="SqlQuery\" />
+  </ItemGroup>
   <ItemGroup>
     <EntityDeploy Include="Models\ContactModel.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
