@@ -66,12 +66,12 @@
                 @Html.DisplayFor(modelItem => item.Address)
             </td>
             <td>
-                <a href="@Url.Action("Edit", "Contact")/@item.ContactId " class="btn btn-warning a-btn-slide-text">
+                <a href="@Url.Action("Edit", "Contact")/@item.ContactId " class="btn btn-success a-btn-slide-text">
                     <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
                     <span><strong>Edit</strong></span>
                 </a>
 
-                <a href="@Url.Action("Delete", "Contact")/@item.ContactId" class="btn btn-danger a-btn-slide-text">
+                <a href="@Url.Action("Delete", "Contact")/@item.ContactId" class="btn btn-warning a-btn-slide-text">
                     <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
                     <span><strong>Delete</strong></span>
                 </a>
