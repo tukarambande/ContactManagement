@@ -34,7 +34,7 @@ namespace ContactManagement.Service.DLL.Repository
         {
             try
             {
-                return dbContext.ContactInfoes.Where(c => c.ContactId == id).FirstOrDefault();
+                return dbContext.ContactInfoes.Where(c => c.ContactId == id).FirstOrDefault();   
             }
             catch (Exception)
             {

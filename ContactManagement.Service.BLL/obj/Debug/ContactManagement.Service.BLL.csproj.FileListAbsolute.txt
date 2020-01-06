@@ -10,3 +10,15 @@ D:\EvolentProject\ContactManagement\ContactManagement.Service.BLL\bin\Debug\Enti
 D:\EvolentProject\ContactManagement\ContactManagement.Service.BLL\obj\Debug\ContactManagement.Service.BLL.csprojResolveAssemblyReference.cache
 D:\EvolentProject\ContactManagement\ContactManagement.Service.BLL\obj\Debug\ContactManagement.Service.BLL.dll
 D:\EvolentProject\ContactManagement\ContactManagement.Service.BLL\obj\Debug\ContactManagement.Service.BLL.pdb
+D:\Tukaram\ContactManagement\ContactManagement\ContactManagement.Service.BLL\bin\Debug\ContactManagement.Service.BLL.dll
+D:\Tukaram\ContactManagement\ContactManagement\ContactManagement.Service.BLL\bin\Debug\ContactManagement.Service.BLL.pdb
+D:\Tukaram\ContactManagement\ContactManagement\ContactManagement.Service.BLL\bin\Debug\AutoMapper.dll
+D:\Tukaram\ContactManagement\ContactManagement\ContactManagement.Service.BLL\bin\Debug\ContactManagement.Service.DLL.dll
+D:\Tukaram\ContactManagement\ContactManagement\ContactManagement.Service.BLL\bin\Debug\EntityFramework.dll
+D:\Tukaram\ContactManagement\ContactManagement\ContactManagement.Service.BLL\bin\Debug\ContactManagement.Service.DLL.pdb
+D:\Tukaram\ContactManagement\ContactManagement\ContactManagement.Service.BLL\bin\Debug\AutoMapper.pdb
+D:\Tukaram\ContactManagement\ContactManagement\ContactManagement.Service.BLL\bin\Debug\AutoMapper.xml
+D:\Tukaram\ContactManagement\ContactManagement\ContactManagement.Service.BLL\bin\Debug\EntityFramework.xml
+D:\Tukaram\ContactManagement\ContactManagement\ContactManagement.Service.BLL\obj\Debug\ContactManagement.Service.BLL.csprojResolveAssemblyReference.cache
+D:\Tukaram\ContactManagement\ContactManagement\ContactManagement.Service.BLL\obj\Debug\ContactManagement.Service.BLL.dll
+D:\Tukaram\ContactManagement\ContactManagement\ContactManagement.Service.BLL\obj\Debug\ContactManagement.Service.BLL.pdb

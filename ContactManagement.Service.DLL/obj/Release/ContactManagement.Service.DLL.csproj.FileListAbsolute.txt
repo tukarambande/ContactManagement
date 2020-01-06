@@ -1,0 +1,9 @@
+D:\Tukaram\ContactManagement\ContactManagement\ContactManagement.Service.DLL\bin\Release\ContactManagement.Service.DLL.dll.config
+D:\Tukaram\ContactManagement\ContactManagement\ContactManagement.Service.DLL\bin\Release\ContactManagement.Service.DLL.dll
+D:\Tukaram\ContactManagement\ContactManagement\ContactManagement.Service.DLL\bin\Release\ContactManagement.Service.DLL.pdb
+D:\Tukaram\ContactManagement\ContactManagement\ContactManagement.Service.DLL\bin\Release\EntityFramework.dll
+D:\Tukaram\ContactManagement\ContactManagement\ContactManagement.Service.DLL\bin\Release\EntityFramework.SqlServer.dll
+D:\Tukaram\ContactManagement\ContactManagement\ContactManagement.Service.DLL\bin\Release\EntityFramework.xml
+D:\Tukaram\ContactManagement\ContactManagement\ContactManagement.Service.DLL\bin\Release\EntityFramework.SqlServer.xml
+D:\Tukaram\ContactManagement\ContactManagement\ContactManagement.Service.DLL\obj\Release\ContactManagement.Service.DLL.dll
+D:\Tukaram\ContactManagement\ContactManagement\ContactManagement.Service.DLL\obj\Release\ContactManagement.Service.DLL.pdb

@@ -1,0 +1,12 @@
+D:\Tukaram\ContactManagement\ContactManagement\ContactManagement.Service.BLL\bin\Release\ContactManagement.Service.BLL.dll
+D:\Tukaram\ContactManagement\ContactManagement\ContactManagement.Service.BLL\bin\Release\ContactManagement.Service.BLL.pdb
+D:\Tukaram\ContactManagement\ContactManagement\ContactManagement.Service.BLL\bin\Release\AutoMapper.dll
+D:\Tukaram\ContactManagement\ContactManagement\ContactManagement.Service.BLL\bin\Release\ContactManagement.Service.DLL.dll
+D:\Tukaram\ContactManagement\ContactManagement\ContactManagement.Service.BLL\bin\Release\EntityFramework.dll
+D:\Tukaram\ContactManagement\ContactManagement\ContactManagement.Service.BLL\bin\Release\ContactManagement.Service.DLL.pdb
+D:\Tukaram\ContactManagement\ContactManagement\ContactManagement.Service.BLL\bin\Release\AutoMapper.pdb
+D:\Tukaram\ContactManagement\ContactManagement\ContactManagement.Service.BLL\bin\Release\AutoMapper.xml
+D:\Tukaram\ContactManagement\ContactManagement\ContactManagement.Service.BLL\bin\Release\EntityFramework.xml
+D:\Tukaram\ContactManagement\ContactManagement\ContactManagement.Service.BLL\obj\Release\ContactManagement.Service.BLL.csprojResolveAssemblyReference.cache
+D:\Tukaram\ContactManagement\ContactManagement\ContactManagement.Service.BLL\obj\Release\ContactManagement.Service.BLL.dll
+D:\Tukaram\ContactManagement\ContactManagement\ContactManagement.Service.BLL\obj\Release\ContactManagement.Service.BLL.pdb
